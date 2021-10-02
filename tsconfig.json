@@ -1,0 +1,54 @@
+{
+	"compilerOptions": {
+		/* Language and Environment */
+		"target": "ES2018",
+		"lib": [
+			"dom",
+			"dom.iterable",
+			"esnext"
+		] /* Specify a set of bundled library declaration files that describe the target runtime environment. */,
+		"jsx": "preserve" /* Preserve JSX on code generation. */,
+
+		/* Type Checking */
+		"strict": true /* Enable all strict type-checking options. */,
+		"allowUnreachableCode": false /* Error reporting for unreachable code. */,
+		"exactOptionalPropertyTypes": true /* Interpret optional property types as written, rather than adding 'undefined'. */,
+		"noFallthroughCasesInSwitch": true /* Error reporting for fallthrough cases in switch statements. */,
+		"noImplicitOverride": true /* Ensure overriding members in derived classes are marked with an override modifier. */,
+		"noImplicitReturns": true /* Error reporting for codepaths that do not explicitly return in a function. */,
+		"noUnusedLocals": true /* Error reporting when a local variables aren't read. */,
+		"noUnusedParameters": true /* Raise an error when a function parameter isn't read */,
+		"noErrorTruncation": true /* Do not truncate error messages. */,
+
+		// * The eight options below can be safely deleted from the file as long as strict is set to true
+		// * They are here just to be explicit about the used TS rules
+		"alwaysStrict": true /* Ensure 'use strict' is always emitted. */,
+		"noImplicitAny": true /* Error reporting for expressions and declarations with an implied `any` type.. */,
+		"noImplicitThis": true /* Error reporting when `this` is given the type `any`. */,
+		"strictFunctionTypes": true /* When assigning functions, check to ensure parameters and the return values are subtype-compatible. */,
+		"strictNullChecks": true /* When type checking, take into account `null` and `undefined`. */,
+		"strictPropertyInitialization": true /* Check for class properties that are declared but not set in the constructor. */,
+		"strictBindCallApply": true /* Check that the arguments for `bind`, `call`, and `apply` methods match the original function. */,
+		"useUnknownInCatchVariables": true /* Type catch clause variables as 'unknown' instead of 'any'. */,
+
+		/* Modules */
+		"baseUrl": "./" /* Specify the base directory to resolve non-relative module names. */,
+		"module": "esnext" /* Specify what module code is generated. */,
+		"moduleResolution": "node" /* Specify how TypeScript looks up a file from a given module specifier. */,
+		"resolveJsonModule": true /* Enable importing .json files */,
+
+		/* Emit */
+		"importHelpers": true /* Allow importing helper functions from tslib once per project, instead of including them per-file. */,
+		"importsNotUsedAsValues": "error" /* Specify checking behavior for imports that are only used for types */,
+		"noEmit": true /* Disable emitting files from a compilation. */,
+		"removeComments": true /* Disable emitting comments. */,
+
+		/* Interop Constraints */
+		"esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */,
+		"forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+		"isolatedModules": true /* Ensure that each file can be safely transpiled without relying on other imports. */,
+
+		/* Completeness */
+		"skipLibCheck": true /* Skip type checking all .d.ts files. */
+	}
+}
